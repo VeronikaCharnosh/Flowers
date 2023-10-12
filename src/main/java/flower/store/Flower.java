@@ -22,7 +22,7 @@ public class Flower extends Item {
         this.color  = flower.color;
     }
     
-    public String getColor(){
+    public String getColor() {
         return color.toString();
     }
     // @Getter
