@@ -8,16 +8,16 @@ public class FlowerPack {
     private Flower flower;
     private int quantity;
 
-    public FlowerPack(Flower flower, int quantity1) {
+    public FlowerPack(Flower flower, int quantityy) {
         this.flower = new Flower(flower);
-        this.quantity = quantity1;
+        this.quantity = quantityy;
     }
 
-    public void setQuantity(int quantity1) {
+    public void setQuantity(int quantityyy) {
         if (quantity1 < 1) {
             this.quantity = 1;
         } else {
-            this.quantity = quantity1;
+            this.quantity = quantityyy;
         }
         
     }
